@@ -1,0 +1,26 @@
+body{
+	font-family: Arial;
+}
+div{
+	margin: 10px 20px;
+}
+.cajaLabel{
+	display: inline-block;
+	min-width: 150px;
+}
+.cajaInput{
+
+	display: inline-block;
+}
+.enviar{
+	margin-top: 10px;
+	width: 390px;
+	text-align: right;
+}
+button{
+	width: 100px;
+	height: 35px;
+	background: #ddd;
+	border: 1px solid #aaa;
+	color: #000;
+}

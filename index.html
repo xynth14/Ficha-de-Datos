@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Ficha de Datos</title>
+	<link rel="stylesheet" href="assets/css/main.css">
+</head>
+<body>
+<h1>Registro de Datos</h1>
+	<form onsubmit="return false;">
+		<div>
+			<div class="cajaLabel"><label for="nombre">Ingresa nombre</label></div>
+			<div class="cajaInput"><input type="text" id="nombre" name="nombre" required="required" pattern="[a-zA-Z]{2,48}" title="Ingrese Nombre"></div>
+		</div>
+		<div>
+			<div class="cajaLabel"><label for="apellido">Ingresa apellido</label></div>
+			<div class="cajaInput"><input type="text" id="apellido" required="required" title="Ingrese Apellido"></div>
+		</div>
+		<div>
+			<div class="cajaLabel"><label for="dni">Ingresa tu DNI</label></div>
+			<div class="cajaInput"><input type="text" id="dni" required="required" title="Ingrese un DNI valido" maxlength="8" pattern="[0-9]{8}"></div>
+		</div>
+		<div>
+			<div class="cajaLabel"><label for="direccion">Ingresa tu dirección</label></div>
+			<div class="cajaInput"><input type="text" id="direccion" required="required" title="Ingrese Dirección"></div>
+		</div>
+		<div class="enviar">
+			<button id="enviar">Enviar Datos</button>
+		</div>
+	</form>
+
+	<div id="mostrar">
+		
+	</div>
+	<script src="assets/js/main.js"></script>
+</body>
+</html>
